@@ -1,8 +1,22 @@
 # Chart Builder — ECharts in your chat
 
+<p>
+  <a href="https://github.com/mcp-use/mcp-use">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mcp-use/mcp-use/main/static/logo_white.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mcp-use/mcp-use/main/static/logo_black.svg">
+      <img alt="Built with mcp-use" src="https://raw.githubusercontent.com/mcp-use/mcp-use/main/static/logo_black.svg" height="28">
+    </picture>
+  </a>
+  &nbsp;
+  <a href="https://github.com/mcp-use/mcp-use">
+    <img src="https://img.shields.io/github/stars/mcp-use/mcp-use?style=social" alt="mcp-use stars">
+  </a>
+</p>
+
 Interactive data visualization MCP App powered by [Apache ECharts](https://echarts.apache.org/). The model generates charts (bar, line, pie, scatter, radar, and more) that render live inside the conversation with streaming support.
 
-<video src="https://mcp-media.cdn.mcp-use.com/media-gen/chart-builder/chat-recording.mp4" width="100%" autoplay loop muted playsinline></video>
+<video src="https://github.com/mcp-use/mcp-chart-builder/raw/main/repo-assets/demo.mp4" width="100%" autoplay loop muted playsinline></video>
 
 ## Try it now
 
@@ -43,7 +57,7 @@ Or open the [Inspector](https://inspector.manufact.com/inspector?autoConnect=htt
 
 | Widget | Preview |
 |--------|---------|
-| `chart-display` | <img src="https://mcp-media.cdn.mcp-use.com/media-gen/chart-builder/create-chart.png" width="500" /> |
+| `chart-display` | <img src="./repo-assets/widget-chart-display.png" width="500" /> |
 
 ## Local development
 
@@ -64,7 +78,7 @@ npx mcp-use deploy
 
 ## Built with
 
-- [mcp-use](https://mcp-use.com) — MCP server framework
+- [mcp-use](https://github.com/mcp-use/mcp-use) — MCP server framework
 - [Apache ECharts](https://echarts.apache.org/) — visualization library (bundled, no CDN required)
 
 ## License
