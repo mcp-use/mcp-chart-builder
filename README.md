@@ -1,13 +1,7 @@
 # Chart Builder — ECharts in your chat
 
 <p>
-  <a href="https://github.com/mcp-use/mcp-use">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mcp-use/mcp-use/main/static/logo_white.svg">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mcp-use/mcp-use/main/static/logo_black.svg">
-      <img alt="Built with mcp-use" src="https://raw.githubusercontent.com/mcp-use/mcp-use/main/static/logo_black.svg" height="28">
-    </picture>
-  </a>
+  <a href="https://github.com/mcp-use/mcp-use">Built with <b>mcp-use</b></a>
   &nbsp;
   <a href="https://github.com/mcp-use/mcp-use">
     <img src="https://img.shields.io/github/stars/mcp-use/mcp-use?style=social" alt="mcp-use stars">
