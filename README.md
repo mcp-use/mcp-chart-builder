@@ -16,7 +16,7 @@
 
 Interactive data visualization MCP App powered by [Apache ECharts](https://echarts.apache.org/). The model generates charts (bar, line, pie, scatter, radar, and more) that render live inside the conversation with streaming support.
 
-<video src="https://github.com/mcp-use/mcp-chart-builder/raw/main/repo-assets/demo.mp4" width="100%" autoplay loop muted playsinline></video>
+![Chart Builder Demo](./repo-assets/demo.gif)
 
 ## Try it now
 
