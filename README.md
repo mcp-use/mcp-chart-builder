@@ -2,11 +2,7 @@
 
 Interactive data visualization MCP App powered by [Apache ECharts](https://echarts.apache.org/). The model generates charts (bar, line, pie, scatter, radar, and more) that render live inside the conversation with streaming support.
 
-![Chart Builder Widget](https://mcp-media.cdn.mcp-use.com/media-gen/chart-builder/create-chart.png)
-
-https://github.com/user-attachments/assets/placeholder
-
-> [Demo video](https://mcp-media.cdn.mcp-use.com/media-gen/chart-builder/chat-recording.webm)
+<video src="https://mcp-media.cdn.mcp-use.com/media-gen/chart-builder/chat-recording.mp4" width="100%" autoplay loop muted playsinline></video>
 
 ## Try it now
 
@@ -36,14 +32,18 @@ Or open the [Inspector](https://inspector.manufact.com/inspector?autoConnect=htt
 - **10+ chart types** — bar, line, pie, scatter, radar, heatmap, treemap, sunburst, gauge, funnel
 - **Theme support** — light and dark mode
 - **Fullscreen mode** — expand charts for immersive viewing
-- **Quick chart tool** — simplified API for common chart types without writing raw ECharts config
 
 ## Tools
 
 | Tool | Description |
 |------|-------------|
-| `create-chart` | Create a chart from a full ECharts option object |
-| `quick-chart` | Create a chart from simple labels + data series |
+| `create-chart` | Create an interactive chart from a title, chart type, and ECharts option object |
+
+## Available Widgets
+
+| Widget | Preview |
+|--------|---------|
+| `chart-display` | <img src="https://mcp-media.cdn.mcp-use.com/media-gen/chart-builder/create-chart.png" width="500" /> |
 
 ## Local development
 
