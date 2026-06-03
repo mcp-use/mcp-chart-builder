@@ -1,0 +1,12 @@
+name: Bump mcp-use
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+jobs:
+  bump:
+    uses: mcp-use/mcp-use/.github/workflows/bump-mcp-use-reusable.yml@main
+    permissions:
+      contents: write
