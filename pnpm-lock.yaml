@@ -4,6 +4,10 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+overrides:
+  sugarss: ^5.0.1
+  lodash: 4.17.23
+
 importers:
 
   .:
@@ -3185,7 +3189,7 @@ packages:
       sass: ^1.70.0
       sass-embedded: ^1.70.0
       stylus: '>=0.54.8'
-      sugarss: ^5.0.0
+      sugarss: ^5.0.1
       terser: ^5.16.0
       tsx: ^4.8.1
       yaml: ^2.4.2
@@ -3226,7 +3230,7 @@ packages:
       sass: ^1.70.0
       sass-embedded: ^1.70.0
       stylus: '>=0.54.8'
-      sugarss: ^5.0.0
+      sugarss: ^5.0.1
       terser: ^5.16.0
       tsx: ^4.8.1
       yaml: ^2.4.2
@@ -3768,7 +3772,7 @@ snapshots:
       dotenv: 17.3.1
       esbuild: 0.27.1
       globby: 16.1.1
-      mcp-use: 1.22.1(0fc8062f50d00685a674ea1f8649a4bf)
+      mcp-use: 1.22.1(34de4c767d00ea8af14a90746f4fc620)
       open: 11.0.0
       react: 19.2.4
       react-dom: 19.2.4(react@19.2.4)
@@ -3853,7 +3857,7 @@ snapshots:
       langchain: 1.2.36(@langchain/core@1.1.35(@opentelemetry/api@1.9.0)(@opentelemetry/sdk-trace-base@2.2.0(@opentelemetry/api@1.9.0))(openai@6.32.0(ws@8.20.0)(zod@4.3.5))(ws@8.20.0))(@opentelemetry/api@1.9.0)(@opentelemetry/sdk-trace-base@2.2.0(@opentelemetry/api@1.9.0))(openai@6.32.0(ws@8.20.0)(zod@4.3.5))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(ws@8.20.0)(zod-to-json-schema@3.25.1(zod@4.3.5))
       lucide-react: 0.562.0(react@19.2.4)
       markdown-to-jsx: 9.7.13(react@19.2.4)
-      mcp-use: 1.22.1(88a1ef10c8f539a490d0b7f2c0afef08)
+      mcp-use: 1.22.1(34de4c767d00ea8af14a90746f4fc620)
       motion: 12.38.0(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       next-themes: 0.4.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       open: 11.0.0
@@ -3927,7 +3931,7 @@ snapshots:
       langchain: 1.2.36(@langchain/core@1.1.35(@opentelemetry/api@1.9.0)(@opentelemetry/sdk-trace-base@2.2.0(@opentelemetry/api@1.9.0))(openai@6.32.0(ws@8.20.0)(zod@4.3.5))(ws@8.20.0))(@opentelemetry/api@1.9.0)(@opentelemetry/sdk-trace-base@2.2.0(@opentelemetry/api@1.9.0))(openai@6.32.0(ws@8.20.0)(zod@4.3.5))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(ws@8.20.0)(zod-to-json-schema@3.25.1(zod@4.3.5))
       lucide-react: 0.562.0(react@19.2.4)
       markdown-to-jsx: 9.7.13(react@19.2.4)
-      mcp-use: 1.22.1(88a1ef10c8f539a490d0b7f2c0afef08)
+      mcp-use: 1.22.1(afc434dffdcf2f1aadd0eacc3c525260)
       motion: 12.38.0(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       next-themes: 0.4.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       open: 11.0.0
@@ -5735,12 +5739,12 @@ snapshots:
 
   math-intrinsics@1.1.0: {}
 
-  mcp-use@1.22.1(0fc8062f50d00685a674ea1f8649a4bf):
+  mcp-use@1.22.1(34de4c767d00ea8af14a90746f4fc620):
     dependencies:
       '@hono/node-server': 1.19.11(hono@4.12.9)
       '@mcp-ui/server': 6.1.0(@cfworker/json-schema@4.1.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(zod@4.3.5)
       '@mcp-use/cli': 2.21.0(720572bb70c2df691d9f6f48b3d0785c)
-      '@mcp-use/inspector': 0.25.1(@cfworker/json-schema@4.1.1)(@opentelemetry/api@1.9.0)(@opentelemetry/sdk-trace-base@2.2.0(@opentelemetry/api@1.9.0))(@types/node@25.5.0)(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(express@5.2.1)(openai@6.32.0(ws@8.20.0)(zod@4.3.5))(react-dom@19.2.4(react@19.2.4))(react-router@7.13.2(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react@19.2.4)(vite@8.0.2(@types/node@25.5.0)(esbuild@0.27.1)(jiti@2.6.1)(tsx@4.21.0))(ws@8.20.0)(zod-to-json-schema@3.25.1(zod@4.3.5))
+      '@mcp-use/inspector': 0.25.1(@cfworker/json-schema@4.1.1)(@opentelemetry/api@1.9.0)(@opentelemetry/sdk-trace-base@2.2.0(@opentelemetry/api@1.9.0))(@types/node@25.5.0)(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(express@5.2.1)(openai@6.32.0(ws@8.20.0)(zod@4.3.5))(react-dom@19.2.4(react@19.2.4))(react-router@7.13.2(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react@19.2.4)(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(lightningcss@1.32.0)(tsx@4.21.0))(ws@8.20.0)(zod-to-json-schema@3.25.1(zod@4.3.5))
       '@modelcontextprotocol/ext-apps': 1.3.1(@modelcontextprotocol/sdk@1.27.1(@cfworker/json-schema@4.1.1)(zod@4.3.5))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(zod@4.3.5)
       '@modelcontextprotocol/sdk': 1.27.1(@cfworker/json-schema@4.1.1)(zod@4.3.5)
       express: 5.2.1
@@ -5763,40 +5767,14 @@ snapshots:
       redis: 5.11.0
     transitivePeerDependencies:
       - '@cfworker/json-schema'
-      - '@emotion/is-prop-valid'
       - '@node-rs/xxhash'
-      - '@opentelemetry/api'
-      - '@opentelemetry/exporter-trace-otlp-proto'
-      - '@opentelemetry/sdk-trace-base'
-      - '@rolldown/plugin-babel'
       - '@types/express'
       - '@types/node'
-      - '@types/react'
-      - '@types/react-dom'
-      - '@vitejs/devtools'
-      - babel-plugin-react-compiler
       - bufferutil
-      - jiti
-      - less
-      - openai
       - react-dom
-      - react-native
-      - react-router-dom
-      - rollup
       - rxjs
-      - sass
-      - sass-embedded
-      - solid-js
-      - stylus
-      - sugarss
       - supports-color
-      - svelte
-      - terser
       - utf-8-validate
-      - vite
-      - vue
-      - yaml
-      - zod-to-json-schema
 
   mcp-use@1.22.1(88a1ef10c8f539a490d0b7f2c0afef08):
     dependencies:
@@ -5859,6 +5837,56 @@ snapshots:
       - vite
       - vue
       - yaml
+      - zod-to-json-schema
+
+  mcp-use@1.22.1(afc434dffdcf2f1aadd0eacc3c525260):
+    dependencies:
+      '@hono/node-server': 1.19.11(hono@4.12.9)
+      '@mcp-ui/server': 6.1.0(@cfworker/json-schema@4.1.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(zod@4.3.5)
+      '@mcp-use/cli': 2.21.0(720572bb70c2df691d9f6f48b3d0785c)
+      '@mcp-use/inspector': 0.25.1(@cfworker/json-schema@4.1.1)(@opentelemetry/api@1.9.0)(@opentelemetry/sdk-trace-base@2.2.0(@opentelemetry/api@1.9.0))(@types/node@25.5.0)(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(express@5.2.1)(openai@6.32.0(ws@8.20.0)(zod@4.3.5))(react-dom@19.2.4(react@19.2.4))(react-router@7.13.2(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react@19.2.4)(vite@8.0.2(@types/node@25.5.0)(esbuild@0.27.1)(jiti@2.6.1)(tsx@4.21.0))(ws@8.20.0)(zod-to-json-schema@3.25.1(zod@4.3.5))
+      '@modelcontextprotocol/ext-apps': 1.3.1(@modelcontextprotocol/sdk@1.27.1(@cfworker/json-schema@4.1.1)(zod@4.3.5))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(zod@4.3.5)
+      '@modelcontextprotocol/sdk': 1.27.1(@cfworker/json-schema@4.1.1)(zod@4.3.5)
+      express: 5.2.1
+      hono: 4.12.9
+      jose: 6.2.2
+      node-mocks-http: 1.17.2(@types/node@25.5.0)
+      posthog-js: 1.363.3
+      posthog-node: 5.28.5
+      react: 19.2.4
+      react-router: 7.13.2(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+      ws: 8.20.0
+      zod: 4.3.5
+    optionalDependencies:
+      '@langchain/anthropic': 1.3.25(@langchain/core@1.1.35(@opentelemetry/api@1.9.0)(@opentelemetry/sdk-trace-base@2.2.0(@opentelemetry/api@1.9.0))(openai@6.32.0(ws@8.20.0)(zod@4.3.5))(ws@8.20.0))
+      '@langchain/core': 1.1.35(@opentelemetry/api@1.9.0)(@opentelemetry/sdk-trace-base@2.2.0(@opentelemetry/api@1.9.0))(openai@6.32.0(ws@8.20.0)(zod@4.3.5))(ws@8.20.0)
+      '@langchain/openai': 1.3.0(@langchain/core@1.1.35(@opentelemetry/api@1.9.0)(@opentelemetry/sdk-trace-base@2.2.0(@opentelemetry/api@1.9.0))(openai@6.32.0(ws@8.20.0)(zod@4.3.5))(ws@8.20.0))(ws@8.20.0)
+      chalk: 5.6.2
+      cli-highlight: 2.1.11
+      langchain: 1.2.36(@langchain/core@1.1.35(@opentelemetry/api@1.9.0)(@opentelemetry/sdk-trace-base@2.2.0(@opentelemetry/api@1.9.0))(openai@6.32.0(ws@8.20.0)(zod@4.3.5))(ws@8.20.0))(@opentelemetry/api@1.9.0)(@opentelemetry/sdk-trace-base@2.2.0(@opentelemetry/api@1.9.0))(openai@6.32.0(ws@8.20.0)(zod@4.3.5))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(ws@8.20.0)(zod-to-json-schema@3.25.1(zod@4.3.5))
+      redis: 5.11.0
+    transitivePeerDependencies:
+      - '@cfworker/json-schema'
+      - '@emotion/is-prop-valid'
+      - '@node-rs/xxhash'
+      - '@opentelemetry/api'
+      - '@opentelemetry/exporter-trace-otlp-proto'
+      - '@opentelemetry/sdk-trace-base'
+      - '@types/express'
+      - '@types/node'
+      - '@types/react'
+      - '@types/react-dom'
+      - bufferutil
+      - openai
+      - react-dom
+      - react-native
+      - rxjs
+      - solid-js
+      - supports-color
+      - svelte
+      - utf-8-validate
+      - vite
+      - vue
       - zod-to-json-schema
 
   media-typer@0.3.0: {}
