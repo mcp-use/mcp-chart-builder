@@ -16,8 +16,8 @@ importers:
         specifier: ^6.0.0
         version: 6.0.0
       mcp-use:
-        specifier: ^1.29.1
-        version: 1.29.1(c8d1dbe047b01efce662ed89c7141ad9)
+        specifier: ^1.32.0
+        version: 1.32.0(c8d1dbe047b01efce662ed89c7141ad9)
       react:
         specifier: ^19.2.4
         version: 19.2.4
@@ -581,8 +581,8 @@ packages:
   '@mcp-ui/server@6.1.0':
     resolution: {integrity: sha512-uxv9JrzEzHfdGo/V/KTFKp5WeCOsaiAoQZ3V88jw1dSXUofONEw4rMwEvVP3612aj/unS2TIeM0o1I0asfIxtw==}
 
-  '@mcp-use/cli@3.3.1':
-    resolution: {integrity: sha512-gsguHcOWOm9Mtv00eXMJFskwetuP0VaxUijN5cA+Ld0C5LH5kMHypCZbGVcChMIgUfQRmKCJPEvoVrfJt0ZmHQ==}
+  '@mcp-use/cli@3.5.1':
+    resolution: {integrity: sha512-98nWRs5haCkX+D7jxRtJ3dpVNDDrYMUaQ7xue4zvm9TjN4qWbz4yWNVQkkYBBTJ8UQ6ezckV5vdBvN0L6Fcknw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -590,13 +590,13 @@ packages:
       react-dom: ^18.0.0 || ^19.0.0
       react-router-dom: ^7.12.0
 
-  '@mcp-use/inspector@7.0.1':
-    resolution: {integrity: sha512-zET4p+KexrGxWFXUmCLvcdA97gmDtO0r5xk2l/X4u4BGczjgFZ5uT582Uix8A6s46Z6y1dPNVzGEvXKbRkFtYg==}
+  '@mcp-use/inspector@10.0.0':
+    resolution: {integrity: sha512-sJ7GXd/92SqWhV/PFBO6dOBAtvqTmot5j3qfF5mCpIjBtFQcjwXT1hTTlDZBkNOcL4c/baaLzUtuBVZlh0vF1g==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
       express: ^4.21.2 || ^5.0.0
-      mcp-use: '>=1.29.1-canary.0'
+      mcp-use: '>=1.32.0-canary.0'
       react: ^18.0.0 || ^19.0.0
       react-dom: ^18.0.0 || ^19.0.0
       react-router: ^7.12.0
@@ -2183,10 +2183,6 @@ packages:
   highlightjs-vue@1.0.0:
     resolution: {integrity: sha512-PDEfEF102G23vHmPhLyPboFCD+BkMGu+GuJe2d9/eH4FsCwvgBpnc9n0pGE+ffKdph38s6foEZiEjdgHdzp+IA==}
 
-  hono@4.12.18:
-    resolution: {integrity: sha512-RWzP96k/yv0PQfyXnWjs6zot20TqfpfsNXhOnev8d1InAxubW93L11/oNUc3tQqn2G0bSdAOBpX+2uDFHV7kdQ==}
-    engines: {node: '>=16.9.0'}
-
   hono@4.12.23:
     resolution: {integrity: sha512-eIaZ9qDgu7XV0pxOCrg7/WhnQ6Ivm22UcxhXx/A3dcbqbbYgBEkc6e/J/s7j2tS96zoB0S9VBdLwQNCWwUo4LA==}
     engines: {node: '>=16.9.0'}
@@ -2433,8 +2429,8 @@ packages:
     resolution: {integrity: sha512-/IXtbwEk5HTPyEwyKX6hGkYXxM9nbj64B+ilVJnC/R6B0pH5G4V3b0pVbL7DBj4tkhBAppbQUlf6F6Xl9LHu1g==}
     engines: {node: '>= 0.4'}
 
-  mcp-use@1.29.1:
-    resolution: {integrity: sha512-mZKiPDPlrJGhYW0iZ17XPhNMQR46XjOaWHW5u9iBtfpCA4AKX4haI96DQM5i0po6hvMQiVSxgx5OCpE10flcGQ==}
+  mcp-use@1.32.0:
+    resolution: {integrity: sha512-3v24nSYZTHIBH13PVzqhXH1jjouStyL7f7D4LONkDjbOS3d/j5Fp7TZTGBdLog4oviK2w0QpqT/TlIgpu4UrJg==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -3527,9 +3523,9 @@ snapshots:
 
   '@floating-ui/utils@0.2.11': {}
 
-  '@hono/node-server@1.19.13(hono@4.12.18)':
+  '@hono/node-server@1.19.13(hono@4.12.23)':
     dependencies:
-      hono: 4.12.18
+      hono: 4.12.23
 
   '@hono/node-server@1.19.14(hono@4.12.23)':
     dependencies:
@@ -3642,9 +3638,9 @@ snapshots:
       - supports-color
       - zod
 
-  '@mcp-use/cli@3.3.1(c9c9630bf46ba60bb7b591981f0b21fe)':
+  '@mcp-use/cli@3.5.1(c9c9630bf46ba60bb7b591981f0b21fe)':
     dependencies:
-      '@mcp-use/inspector': 7.0.1(@cfworker/json-schema@4.1.1)(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(express@5.2.1)(mcp-use@1.29.1(c8d1dbe047b01efce662ed89c7141ad9))(react-dom@19.2.4(react@19.2.4))(react-router@7.13.2(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react@19.2.4)(vite@8.0.16(@types/node@25.5.0)(esbuild@0.27.1)(jiti@2.6.1)(tsx@4.21.0))
+      '@mcp-use/inspector': 10.0.0(@cfworker/json-schema@4.1.1)(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(express@5.2.1)(mcp-use@1.32.0(c8d1dbe047b01efce662ed89c7141ad9))(react-dom@19.2.4(react@19.2.4))(react-router@7.13.2(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react@19.2.4)(vite@8.0.16(@types/node@25.5.0)(esbuild@0.27.1)(jiti@2.6.1)(tsx@4.21.0))
       '@tailwindcss/vite': 4.2.2(vite@8.0.16(@types/node@25.5.0)(esbuild@0.27.1)(jiti@2.6.1)(tsx@4.21.0))
       '@vitejs/plugin-react': 6.0.1(vite@8.0.16(@types/node@25.5.0)(esbuild@0.27.1)(jiti@2.6.1)(tsx@4.21.0))
       chalk: 5.6.2
@@ -3652,7 +3648,7 @@ snapshots:
       commander: 14.0.3
       dotenv: 17.3.1
       esbuild: 0.27.1
-      mcp-use: 1.29.1(a4267b4828572848c0053508597dd934)
+      mcp-use: 1.32.0(a4267b4828572848c0053508597dd934)
       open: 11.0.0
       react: 19.2.4
       react-dom: 19.2.4(react@19.2.4)
@@ -3700,7 +3696,7 @@ snapshots:
       - vue
       - yaml
 
-  '@mcp-use/inspector@7.0.1(@cfworker/json-schema@4.1.1)(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(express@5.2.1)(mcp-use@1.29.1(c8d1dbe047b01efce662ed89c7141ad9))(react-dom@19.2.4(react@19.2.4))(react-router@7.13.2(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react@19.2.4)(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(lightningcss@1.32.0)(tsx@4.21.0))':
+  '@mcp-use/inspector@10.0.0(@cfworker/json-schema@4.1.1)(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(express@5.2.1)(mcp-use@1.32.0(c8d1dbe047b01efce662ed89c7141ad9))(react-dom@19.2.4(react@19.2.4))(react-router@7.13.2(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react@19.2.4)(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(lightningcss@1.32.0)(tsx@4.21.0))':
     dependencies:
       '@hono/node-server': 1.19.14(hono@4.12.23)
       '@modelcontextprotocol/ext-apps': 1.3.1(@modelcontextprotocol/sdk@1.27.1(@cfworker/json-schema@4.1.1)(zod@4.3.5))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(zod@4.3.5)
@@ -3725,7 +3721,7 @@ snapshots:
       hono: 4.12.23
       lucide-react: 0.562.0(react@19.2.4)
       markdown-to-jsx: 9.7.13(react@19.2.4)
-      mcp-use: 1.29.1(c8d1dbe047b01efce662ed89c7141ad9)
+      mcp-use: 1.32.0(c8d1dbe047b01efce662ed89c7141ad9)
       motion: 12.38.0(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       next-themes: 0.4.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       open: 11.0.0
@@ -3752,7 +3748,7 @@ snapshots:
       - vite
       - vue
 
-  '@mcp-use/inspector@7.0.1(@cfworker/json-schema@4.1.1)(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(express@5.2.1)(mcp-use@1.29.1(c8d1dbe047b01efce662ed89c7141ad9))(react-dom@19.2.4(react@19.2.4))(react-router@7.13.2(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react@19.2.4)(vite@8.0.16(@types/node@25.5.0)(esbuild@0.27.1)(jiti@2.6.1)(tsx@4.21.0))':
+  '@mcp-use/inspector@10.0.0(@cfworker/json-schema@4.1.1)(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(express@5.2.1)(mcp-use@1.32.0(c8d1dbe047b01efce662ed89c7141ad9))(react-dom@19.2.4(react@19.2.4))(react-router@7.13.2(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react@19.2.4)(vite@8.0.16(@types/node@25.5.0)(esbuild@0.27.1)(jiti@2.6.1)(tsx@4.21.0))':
     dependencies:
       '@hono/node-server': 1.19.14(hono@4.12.23)
       '@modelcontextprotocol/ext-apps': 1.3.1(@modelcontextprotocol/sdk@1.27.1(@cfworker/json-schema@4.1.1)(zod@4.3.5))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(zod@4.3.5)
@@ -3777,7 +3773,7 @@ snapshots:
       hono: 4.12.23
       lucide-react: 0.562.0(react@19.2.4)
       markdown-to-jsx: 9.7.13(react@19.2.4)
-      mcp-use: 1.29.1(c8d1dbe047b01efce662ed89c7141ad9)
+      mcp-use: 1.32.0(c8d1dbe047b01efce662ed89c7141ad9)
       motion: 12.38.0(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       next-themes: 0.4.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       open: 11.0.0
@@ -4859,7 +4855,6 @@ snapshots:
   ansi-styles@4.3.0:
     dependencies:
       color-convert: 2.0.1
-    optional: true
 
   ansi-styles@5.2.0:
     optional: true
@@ -4927,7 +4922,6 @@ snapshots:
     dependencies:
       ansi-styles: 4.3.0
       supports-color: 7.2.0
-    optional: true
 
   chalk@5.6.2: {}
 
@@ -4984,10 +4978,8 @@ snapshots:
   color-convert@2.0.1:
     dependencies:
       color-name: 1.1.4
-    optional: true
 
-  color-name@1.1.4:
-    optional: true
+  color-name@1.1.4: {}
 
   comma-separated-tokens@2.0.3: {}
 
@@ -5294,8 +5286,7 @@ snapshots:
 
   graceful-fs@4.2.11: {}
 
-  has-flag@4.0.0:
-    optional: true
+  has-flag@4.0.0: {}
 
   has-symbols@1.1.0: {}
 
@@ -5318,8 +5309,6 @@ snapshots:
   highlight.js@10.7.3: {}
 
   highlightjs-vue@1.0.0: {}
-
-  hono@4.12.18: {}
 
   hono@4.12.23: {}
 
@@ -5513,16 +5502,17 @@ snapshots:
 
   math-intrinsics@1.1.0: {}
 
-  mcp-use@1.29.1(a4267b4828572848c0053508597dd934):
+  mcp-use@1.32.0(a4267b4828572848c0053508597dd934):
     dependencies:
-      '@hono/node-server': 1.19.13(hono@4.12.18)
+      '@hono/node-server': 1.19.13(hono@4.12.23)
       '@mcp-ui/server': 6.1.0(@cfworker/json-schema@4.1.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(zod@4.3.5)
-      '@mcp-use/cli': 3.3.1(c9c9630bf46ba60bb7b591981f0b21fe)
-      '@mcp-use/inspector': 7.0.1(@cfworker/json-schema@4.1.1)(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(express@5.2.1)(mcp-use@1.29.1(c8d1dbe047b01efce662ed89c7141ad9))(react-dom@19.2.4(react@19.2.4))(react-router@7.13.2(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react@19.2.4)(vite@8.0.16(@types/node@25.5.0)(esbuild@0.27.1)(jiti@2.6.1)(tsx@4.21.0))
+      '@mcp-use/cli': 3.5.1(c9c9630bf46ba60bb7b591981f0b21fe)
+      '@mcp-use/inspector': 10.0.0(@cfworker/json-schema@4.1.1)(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(express@5.2.1)(mcp-use@1.32.0(c8d1dbe047b01efce662ed89c7141ad9))(react-dom@19.2.4(react@19.2.4))(react-router@7.13.2(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react@19.2.4)(vite@8.0.16(@types/node@25.5.0)(esbuild@0.27.1)(jiti@2.6.1)(tsx@4.21.0))
       '@modelcontextprotocol/ext-apps': 1.0.1(@modelcontextprotocol/sdk@1.26.0(@cfworker/json-schema@4.1.1)(zod@4.3.5))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(zod@4.3.5)
       '@modelcontextprotocol/sdk': 1.26.0(@cfworker/json-schema@4.1.1)(zod@4.3.5)
+      chalk: 4.1.2
       express: 5.2.1
-      hono: 4.12.18
+      hono: 4.12.23
       jose: 6.1.3
       node-mocks-http: 1.17.2(@types/node@25.5.0)
       posthog-js: 1.351.3
@@ -5534,7 +5524,6 @@ snapshots:
       '@langchain/anthropic': 1.3.25(@langchain/core@1.1.35(@opentelemetry/api@1.9.0)(@opentelemetry/sdk-trace-base@2.2.0(@opentelemetry/api@1.9.0))(openai@6.32.0(ws@8.20.0)(zod@4.3.5))(ws@8.20.0))
       '@langchain/core': 1.1.35(@opentelemetry/api@1.9.0)(@opentelemetry/sdk-trace-base@2.2.0(@opentelemetry/api@1.9.0))(openai@6.32.0(ws@8.20.0)(zod@4.3.5))(ws@8.20.0)
       '@langchain/openai': 1.3.0(@langchain/core@1.1.35(@opentelemetry/api@1.9.0)(@opentelemetry/sdk-trace-base@2.2.0(@opentelemetry/api@1.9.0))(openai@6.32.0(ws@8.20.0)(zod@4.3.5))(ws@8.20.0))(ws@8.20.0)
-      chalk: 5.6.2
       cli-highlight: 2.1.11
       langchain: 1.2.36(@langchain/core@1.1.35(@opentelemetry/api@1.9.0)(@opentelemetry/sdk-trace-base@2.2.0(@opentelemetry/api@1.9.0))(openai@6.32.0(ws@8.20.0)(zod@4.3.5))(ws@8.20.0))(@opentelemetry/api@1.9.0)(@opentelemetry/sdk-trace-base@2.2.0(@opentelemetry/api@1.9.0))(openai@6.32.0(ws@8.20.0)(zod@4.3.5))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(ws@8.20.0)(zod-to-json-schema@3.25.1(zod@4.3.5))
       redis: 5.10.0
@@ -5568,16 +5557,17 @@ snapshots:
       - vue
       - yaml
 
-  mcp-use@1.29.1(c8d1dbe047b01efce662ed89c7141ad9):
+  mcp-use@1.32.0(c8d1dbe047b01efce662ed89c7141ad9):
     dependencies:
-      '@hono/node-server': 1.19.13(hono@4.12.18)
+      '@hono/node-server': 1.19.13(hono@4.12.23)
       '@mcp-ui/server': 6.1.0(@cfworker/json-schema@4.1.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(zod@4.3.5)
-      '@mcp-use/cli': 3.3.1(c9c9630bf46ba60bb7b591981f0b21fe)
-      '@mcp-use/inspector': 7.0.1(@cfworker/json-schema@4.1.1)(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(express@5.2.1)(mcp-use@1.29.1(c8d1dbe047b01efce662ed89c7141ad9))(react-dom@19.2.4(react@19.2.4))(react-router@7.13.2(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react@19.2.4)(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(lightningcss@1.32.0)(tsx@4.21.0))
+      '@mcp-use/cli': 3.5.1(c9c9630bf46ba60bb7b591981f0b21fe)
+      '@mcp-use/inspector': 10.0.0(@cfworker/json-schema@4.1.1)(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(express@5.2.1)(mcp-use@1.32.0(c8d1dbe047b01efce662ed89c7141ad9))(react-dom@19.2.4(react@19.2.4))(react-router@7.13.2(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react@19.2.4)(vite@7.3.1(@types/node@25.5.0)(jiti@2.6.1)(lightningcss@1.32.0)(tsx@4.21.0))
       '@modelcontextprotocol/ext-apps': 1.0.1(@modelcontextprotocol/sdk@1.26.0(@cfworker/json-schema@4.1.1)(zod@4.3.5))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(zod@4.3.5)
       '@modelcontextprotocol/sdk': 1.26.0(@cfworker/json-schema@4.1.1)(zod@4.3.5)
+      chalk: 4.1.2
       express: 5.2.1
-      hono: 4.12.18
+      hono: 4.12.23
       jose: 6.1.3
       node-mocks-http: 1.17.2(@types/node@25.5.0)
       posthog-js: 1.351.3
@@ -5589,7 +5579,6 @@ snapshots:
       '@langchain/anthropic': 1.3.25(@langchain/core@1.1.35(@opentelemetry/api@1.9.0)(@opentelemetry/sdk-trace-base@2.2.0(@opentelemetry/api@1.9.0))(openai@6.32.0(ws@8.20.0)(zod@4.3.5))(ws@8.20.0))
       '@langchain/core': 1.1.35(@opentelemetry/api@1.9.0)(@opentelemetry/sdk-trace-base@2.2.0(@opentelemetry/api@1.9.0))(openai@6.32.0(ws@8.20.0)(zod@4.3.5))(ws@8.20.0)
       '@langchain/openai': 1.3.0(@langchain/core@1.1.35(@opentelemetry/api@1.9.0)(@opentelemetry/sdk-trace-base@2.2.0(@opentelemetry/api@1.9.0))(openai@6.32.0(ws@8.20.0)(zod@4.3.5))(ws@8.20.0))(ws@8.20.0)
-      chalk: 5.6.2
       cli-highlight: 2.1.11
       langchain: 1.2.36(@langchain/core@1.1.35(@opentelemetry/api@1.9.0)(@opentelemetry/sdk-trace-base@2.2.0(@opentelemetry/api@1.9.0))(openai@6.32.0(ws@8.20.0)(zod@4.3.5))(ws@8.20.0))(@opentelemetry/api@1.9.0)(@opentelemetry/sdk-trace-base@2.2.0(@opentelemetry/api@1.9.0))(openai@6.32.0(ws@8.20.0)(zod@4.3.5))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(ws@8.20.0)(zod-to-json-schema@3.25.1(zod@4.3.5))
       redis: 5.10.0
@@ -6140,7 +6129,6 @@ snapshots:
   supports-color@7.2.0:
     dependencies:
       has-flag: 4.0.0
-    optional: true
 
   tailwind-merge@3.5.0: {}
 
