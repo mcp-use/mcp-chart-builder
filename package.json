@@ -1,6 +1,9 @@
 {
   "name": "chart-builder",
   "type": "module",
+  "engines": {
+    "node": ">=22.22.2"
+  },
   "version": "1.0.0",
   "description": "Interactive data visualization — ECharts in your chat",
   "license": "MIT",
@@ -10,11 +13,11 @@
     "dev": "mcp-use dev",
     "start": "mcp-use start",
     "deploy": "mcp-use deploy",
-    "postinstall": "mcp-use generate-types || true"
+    "typecheck": "mcp-use typecheck"
   },
   "dependencies": {
     "echarts": "^6.0.0",
-    "mcp-use": "^1.32.0",
+    "mcp-use": "2.0.1-canary.4",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "tailwindcss": "^4.2.0",
