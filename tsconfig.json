@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "ES2022",
+    "target": "ES2024",
     "jsx": "react-jsx",
     "module": "ESNext",
     "moduleResolution": "bundler",
@@ -19,6 +19,6 @@
       "@/*": ["src/*"]
     }
   },
-  "include": ["index.ts", "src/**/*", "resources/**/*", "server.ts", ".mcp-use/**/*.d.ts"],
+  "include": ["index.ts", "mcp-env.d.ts", "src/**/*", "views/**/*", "server.ts", ".mcp-use/**/*.d.ts"],
   "exclude": ["node_modules", "dist"]
 }
